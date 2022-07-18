@@ -4,18 +4,17 @@ Objective of project is to build Level 3 vehicles Which have “environmental de
 ![Lane_detection_flow](https://user-images.githubusercontent.com/60837462/179561984-ee6043d3-6f98-4a4e-94e3-387e4c51969d.jpg)
 
 # Algorithm
-draw_lane_lines()
-        	function takes detected lanes and fills the area inside them with a green color. It also visualizes the center of the lane by taking the mean of left_fitx and right_fitx  lists and storing them in pts_mean variable, which then is represented by 
-yellowish color. This variable is also used to calculate the offset of the vehicle to either side or of it is centered in the lane.
-offCenter()
+draw_lane_lines():
+        	function takes detected lanes and fills the area inside them with a green color. It also visualizes the center of the lane by taking the mean of left_fitx and right_fitx  lists and storing them in pts_mean variable, which then is represented by yellowish color. This variable is also used to calculate the offset of the vehicle to either side or of it is centered in the lane.
 
-offCenter() function uses pts_mean variable to calculate the offset value and show it in meter space.
-addText()
+offCenter():
+        offCenter() function uses pts_mean variable to calculate the offset value and show it in meter space.
 
-Finally by adding text on the final image would complete the process and the information displayed.
-main()
+addText():
+        Finally by adding text on the final image would complete the process and the information displayed.
 
-Main function is where all these functions are called in the correct order and contains the loop to play video.
+main():
+        Main function is where all these functions are called in the correct order and contains the loop to play video.
 
 ![image](https://user-images.githubusercontent.com/60837462/179562303-76d24915-bcfe-4acf-b165-cf375b243554.png)
 
