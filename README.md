@@ -1,3 +1,6 @@
+# Output:
+        https://youtu.be/48irckF3vA0
+
 # Autonomous_Vehicle
 Objective of project is to build Level 3 vehicles Which have “environmental detection” capabilities and can make informed decisions for themselves, such as accelerating past a slow-moving vehicle. But they still require human override. The driver must remain alert and ready to take control if the system is unable to execute the task. Autonomous driving is not one single technology, but rather a highly complex system that consists of many sub-systems. Let us break it into three major components namely algorithms including sensing, perception, and decision. Client systems, including the operating system and the hardware platform including high-definition (HD) Camera, deep learning trained model, simulation Code, and data storage. The algorithm subsystem extracts meaningful information from sensor raw data to understand its environment and to make decisions about its future actions. The client systems integrate these algorithms together to meet real-time and reliability requirements, in other words taking actions so as to reliably and safely reach target destinations.
 
